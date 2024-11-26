@@ -79,6 +79,7 @@ namespace Meridian.Services
 
         public static async Task<ItemsResponse<VkAudio>> GetUserTracks(int count = 0, int offset = 0, long albumId = 0, long ownerId = 0)
         {
+            count = 9999;
             try
             {
                 var response = await _vkontakte.Audio.Get(ownerId, albumId, count, offset);

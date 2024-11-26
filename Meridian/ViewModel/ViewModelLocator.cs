@@ -10,7 +10,7 @@ namespace Meridian.ViewModel
     {
         private static Lazy<MainViewModel> _main = new Lazy<MainViewModel>(() => new MainViewModel());
         private static Lazy<NowPlayingViewModel> _nowPlaying = new Lazy<NowPlayingViewModel>(() => new NowPlayingViewModel());
-        private static readonly Vk _vkontakte = new Vk(appId: "2274003", clientSecret: "hHbZxrka2uZ6jB1inYsH", apiVersion: "5.116", userAgent: "VKAndroidApp/5.52-4543 (Android 5.1.1; SDK 22; x86_64; unknown Android SDK built for x86_64; en; 320x240)");
+        private static readonly Vk _vkontakte = new Vk(appId: "2685278", clientSecret: "lxhD8OD7dMsqtXIm5IUY", apiVersion: "5.81", userAgent: "KateMobileAndroid");
         private static readonly LastFm _lastFm = new LastFm("a012acc1e5f8a61bc7e58238ce3021d8", "86776d4f43a72633fb37fb28713a7798");
         private static readonly UpdateService _updateService = new UpdateService();
 
